@@ -1,8 +1,16 @@
-# Compiled simulation executables
+# Compiled simulation executables and outputs
 Project1/sim/*
+Project2/sim/*
+Project3/sim/*
 
-# Keep the sim folder
+# Keep simulation directories in Git
 !Project1/sim/.gitkeep
+!Project2/sim/.gitkeep
+!Project3/sim/.gitkeep
 
-# GTKWave waveforms
-*.vcdProject2/sim/*
+# GTKWave waveform files
+*.vcd
+*.fst
+
+# Local editor settings
+.vscode/
